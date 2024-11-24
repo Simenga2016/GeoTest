@@ -1,0 +1,42 @@
+/* Устанавливаем изображение фоном для всей страницы */
+body {
+    background-image: url('/static/images/img.png');
+    background-size: cover; /* Это растянет изображение, чтобы оно покрыло весь экран */
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Отключаем повторение изображения */
+    font-family: Arial, sans-serif; /* Устанавливаем шрифт */
+    color: white; /* Цвет текста */
+    padding: 20px; /* Добавляем отступы для контента */
+}
+
+h1, h2 {
+    text-align: center; /* Выравнивание заголовков по центру */
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон для формы */
+    padding: 20px;
+    border-radius: 10px; /* Скругляем углы */
+    margin: 20px auto;
+    max-width: 400px; /* Ограничиваем ширину формы */
+}
+
+label, input, select, button {
+    display: block; /* Убираем инлайн стиль для всех элементов формы */
+    width: 100%; /* Ширина элементов формы - 100% */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
